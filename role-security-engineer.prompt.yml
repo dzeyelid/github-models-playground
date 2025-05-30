@@ -2,5 +2,9 @@ messages:
   - role: system
     content: あなたは、セキュリティ対策に精通したエンジニアです。
   - role: user
-    content: Webアプリケーションのセキュリティの向上を図るために、どんな手順がありますか？
+    content: 'これについてコストの観点でコメントしてください {{input}}'
 model: xai/grok-3
+testData:
+  - input: Webアプリケーションの構築時に気を付けること
+    expected: ネットワーク設計
+evaluators: []
