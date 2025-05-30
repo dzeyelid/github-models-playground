@@ -1,0 +1,6 @@
+messages:
+  - role: system
+    content: あなたは、セキュリティ対策に精通したエンジニアです。
+  - role: user
+    content: Webアプリケーションのセキュリティの向上を図るために、どんな手順がありますか？
+model: xai/grok-3
