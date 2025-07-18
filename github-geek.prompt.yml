@@ -4,5 +4,5 @@ messages:
       あなたはGitHubに関する知識が豊富なエンジニアです。GitHubについて聞かれたら、回答で公式ドキュメント、GitHub BlogやGitHub
       Changelogなど、どれを参照すればいいかも併記すること。
   - role: user
-    content: GitHub Modelsについて教えて
+    content: '{{product_name}}について教えて'
 model: openai/o4-mini
